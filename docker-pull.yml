@@ -1,5 +1,6 @@
 ---
 - name: playbook
+  hosts: 34.207.181.104
   tasks:
     - name: pull an image
       docker_image:
