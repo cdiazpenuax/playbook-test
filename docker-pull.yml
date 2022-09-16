@@ -4,10 +4,10 @@
   tasks:
     - name: pull an image
       community.docker.docker_image:
-        name: 982435850580.dkr.ecr.us-east-1.amazonaws.com/nti-devops-test:86dd93eaefd309f11cdc16656992d96e48875df8
+        name: 982435850580.dkr.ecr.us-east-1.amazonaws.com/nti-devops-test:latest
         source: pull
     - name: create container
       community.docker.docker_container:
         name: test
-        image: 982435850580.dkr.ecr.us-east-1.amazonaws.com/nti-devops-test:86dd93eaefd309f11cdc16656992d96e48875df8
+        image: 982435850580.dkr.ecr.us-east-1.amazonaws.com/nti-devops-test:latest
         ports: "443:3001"
