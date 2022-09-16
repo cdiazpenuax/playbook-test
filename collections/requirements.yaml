@@ -1,1 +1,4 @@
-- name: docker_image
+---
+collections:
+ - name: docker_image
+ - name: docker_container
