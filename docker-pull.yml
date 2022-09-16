@@ -1,6 +1,5 @@
 ---
 - name: playbook
-  hosts: aws
   tasks:
     - name: pull an image
       docker_image:
