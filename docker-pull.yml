@@ -1,0 +1,13 @@
+---
+- name: playbook
+  hosts: aws
+  tasks:
+    - name: pull an image
+      docker_image:
+        name: 982435850580.dkr.ecr.us-east-1.amazonaws.com/nti-devops-test:86dd93eaefd309f11cdc16656992d96e48875df8
+        source: pull
+    - name: create container
+      docker_container:
+        name: test
+        image: 982435850580.dkr.ecr.us-east-1.amazonaws.com/nti-devops-test:86dd93eaefd309f11cdc16656992d96e48875df8
+        ports: "443:3001"
