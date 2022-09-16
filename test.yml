@@ -1,4 +1,4 @@
 ---
-- hosts: aws
+- hosts: 34.207.181.104
   tasks:
     - debug: msg="Ansible is working!"
