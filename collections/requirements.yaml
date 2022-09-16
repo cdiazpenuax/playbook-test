@@ -1,4 +1,4 @@
 ---
 collections:
- - name: community.general.docker_image
- - name: community.general.docker_container
+ - name: community.docker.docker_container
+ - name: community.docker.docker_image
