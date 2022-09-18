@@ -1,3 +1,3 @@
-- Collections required to run the playbook
-- Test playbook to check if connection to host is successfull
+- Collections required to run the playbook.
+- Test playbook to check if connection to host is successful.
 - Playbook to pull a docker image and run a container.
