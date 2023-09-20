@@ -1,4 +1,4 @@
 ---
-- hosts: 34.207.181.104
+- hosts: gl
   tasks:
     - debug: msg="Ansible is working!"
